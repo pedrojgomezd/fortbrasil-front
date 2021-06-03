@@ -5,11 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "algolia-places-react": "^1.6.1",
+    "autoprefixer": "^10.2.6",
+    "axios": "^0.21.1",
+    "formik": "^2.2.9",
     "next": "10.2.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-feather": "^2.0.9",
+    "tailwindcss": "^2.1.4",
+    "yup": "^0.32.9"
   }
 }
