@@ -1,7 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  const { push } = useRouter()
+  useEffect(() => {
+    push('login')
+  }, []);
+
   return (
     <div className="">
       <Head>
@@ -10,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-black"></main>
+      <main className="bg"></main>
     </div>
   );
 }

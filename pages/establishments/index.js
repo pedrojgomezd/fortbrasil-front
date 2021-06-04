@@ -32,6 +32,7 @@ const EstablishmentsPage = () => {
 
   useEffect(() => {
     const seearchEstablishments = () => {
+      setLoading(true);
       clientHttp
         .get(`search/${q}`)
         .then(({ data }) => {
