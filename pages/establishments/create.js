@@ -44,7 +44,7 @@ const CustomerCreate = () => {
     <Layouts title="Create Establishment">
       <div className="flex justify-between w-full items-center">
         <h3 className="text-2xl text-gray-700 font-semibold flex gap-2 items-center">
-          <IconElement icon="User" />
+          <IconElement icon="Home" />
           Establishment create
         </h3>
         <div>
